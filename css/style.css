@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+	body {
+	    border: 1px solid black;
+	    width: 60%;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    padding: 3% 7%;
+	    margin: 5% 0 5% 20%;
+	}
+		.title {
+			text-align: center;
+		}
+			.subtitle {
+				padding: 2% 0;
+			}
+			.label {
+				display: block;
+				padding: 1% 4%;
+			}
+				.check {
+					height: 10px;
+				}
+			.submit {
+			    height: 42px;
+			    width: 40%;
+			    margin-left: 30%;
+			}
+
+
