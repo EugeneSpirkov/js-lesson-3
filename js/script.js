@@ -5,7 +5,7 @@ var body = document.body;
 
 var app = {
 
-	createElement: function (params) {								//конструктор для генерации елементов
+	createElement: function (params) {								//метод для генерации елементов
 
 		var element = document.createElement(params.tagName);		//создаём тег указаный при вызове
 
@@ -28,7 +28,7 @@ var app = {
 		return element;
 	}, //конец createElement
 
-	generatingQuestion: function (questionsAmount, answersAmount) { //конструктор для генерации вопросов с ответами
+	generatingQuestion: function (questionsAmount, answersAmount) { //метод для генерации вопросов с ответами
 
 
 		for (var i = 0; i < questionsAmount; i++) {					//циклом генерируем вопросы
